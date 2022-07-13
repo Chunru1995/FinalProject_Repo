@@ -1,0 +1,14 @@
+test_1_Die_initial (__main__.MontecarloTestSuite) ... ok
+test_2_Die_changeweight (__main__.MontecarloTestSuite) ... ok
+test_3_Die_rolldie (__main__.MontecarloTestSuite) ... ok
+test_4_Game_initial (__main__.MontecarloTestSuite) ... ok
+test_5_Game_play (__main__.MontecarloTestSuite) ... ok
+test_6_Game_show (__main__.MontecarloTestSuite) ... ok
+test_7_Analyzer_combo (__main__.MontecarloTestSuite) ... ok
+test_7_Analyzer_jackpot (__main__.MontecarloTestSuite) ... ok
+test_8_Analyzer_faceper (__main__.MontecarloTestSuite) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.024s
+
+OK
