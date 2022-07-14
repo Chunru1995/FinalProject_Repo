@@ -12,6 +12,7 @@ project: Montecarlo
   - from montecarlo import montecarlo
 * **Creating dice:**
   - Die_class = montecarlo.Die(['H', 'T'])
+  - enter an array of the dice you want to roll, and returns the results of rolling one time as initialized.
 * **Playing games:**
   - Game_class = montecarlo.Game(['H', 'T'])
   - Game1 = Game_class.play(1000,3)
@@ -27,7 +28,7 @@ This class is to draw a die with a list of ?faces?, and W weights, and can be ro
   This initialize the arrays of dice, and return the faces, weights, and die.
     
   - change_weight(self, face_id, new_weight): 
-  Enter the new face_id and new_weight, and this returns the new frame of die and weights. 
+  Enter the new face_id and new_weight, and this returns the new dataframe of die and weights. 
   
   - roll_die(self, n_rolls=1):
   This returns the results of rolling a dice for n_rolls times. 
